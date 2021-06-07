@@ -30,7 +30,7 @@
    let attrib = b.getAttribute('value');
 
    btn4.onclick = () => {
-     //  alert(attrib * attrib);
+       alert(attrib * attrib);
     
    };
 
@@ -40,6 +40,9 @@ let btn5 = document.querySelector('.btn5');
 ////////SIXTH TASK  Напишите код, который будет при нажатии на кнопку менять текст в ней.\
  let btn6 = document.querySelector('.btn6');
    
+  btn6.onclick = () => {
+      btn6.innerHTML = 'DID you catch it , we"ve changed words';
+  };
 
 /////////////////////SEVENTH TASK Напишите код, который будет при нажатии на кнопку менять цвет текста в инпуте (изначально в инпуте уже должно быть задан текст).
 let btn7 = document.querySelector('.btn7');
