@@ -27,14 +27,14 @@
  };
 
  ///////FOUR TASK  . Напишите код, который будет выводить alert  с содержимым инпута, возведенным в квадрат (для этого вам нужно создать инпут, в который пользователь будет вводить число).
- let btn4 = document.querySelector('.btn4');
-  let b = document.querySelector('.input-4');
-   let attrib = b.getAttribute('value');
 
-   btn4.onclick = () => {
-       alert(attrib * attrib);
-    
-   };
+ let btn4 = document.querySelector('.btn4');
+ btn4.onclick = function () {
+  
+  let b = document.querySelector('.input-4').value;
+   alert(b * b);
+  
+ };
 
 //////////// FIFTH TASK   Вам необходимо создать два инпута с заданными значениями и кнопку, при нажатии на которую будет осуществляться обмен содержимым между двумя инпутами (значение первого инпута должно записаться во второй, а значение второго — в первый).
 let btn5 = document.querySelector('.btn5');
