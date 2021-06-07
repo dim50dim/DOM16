@@ -11,7 +11,7 @@
       
            
       btn2.onclick = function () {
-      a2.setAttribute('value','however , we have done it');
+         a2.setAttribute('value','however , we have done it');
           console.log(a2);
       };
 
@@ -29,7 +29,7 @@
  ///////FOUR TASK  . Напишите код, который будет выводить alert  с содержимым инпута, возведенным в квадрат (для этого вам нужно создать инпут, в который пользователь будет вводить число).
 
  let btn4 = document.querySelector('.btn4');
- btn4.onclick = function () {
+ btn4.onclick = () => {
   
   let b = document.querySelector('.input-4').value;
    alert(b * b);
@@ -50,8 +50,9 @@ let btn5 = document.querySelector('.btn5');
 ////////SIXTH TASK  Напишите код, который будет при нажатии на кнопку менять текст в ней.\
  let btn6 = document.querySelector('.btn6');
    
-  btn6.onclick = function () {
-      btn6.innerHTML = 'DID you catch it , we"ve changed words';
+  btn6.onclick = () => {
+   btn6.innerHTML = 'DID you catch it , we"ve changed words';
+  
   };
 
 /////////////////////SEVENTH TASK Напишите код, который будет при нажатии на кнопку менять цвет текста в инпуте (изначально в инпуте уже должно быть задан текст).
