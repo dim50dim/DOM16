@@ -39,7 +39,7 @@
 //////////// FIFTH TASK   Вам необходимо создать два инпута с заданными значениями и кнопку, при нажатии на которую будет осуществляться обмен содержимым между двумя инпутами (значение первого инпута должно записаться во второй, а значение второго — в первый).
 let btn5 = document.querySelector('.btn5');
   let a51 = document.querySelector('.input-51');
-  let attrub51 = a51.getAttribute('value');
+  let attrub51 = a51.getAttribute('value');     // ЗДЕСЬ ПОХОЖЕ НА КОСТЫЛИ
   let a52 = document.querySelector('.input-52');
   let attrub52 = a52.getAttribute('value');
 
