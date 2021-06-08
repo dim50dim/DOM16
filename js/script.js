@@ -11,7 +11,7 @@
       
            
       btn2.onclick = function () {
-      a2.setAttribute('value','however , we have done it');
+         a2.setAttribute('value','however , we have done it');
           console.log(a2);
       };
 
@@ -29,14 +29,24 @@
  ///////FOUR TASK  . Напишите код, который будет выводить alert  с содержимым инпута, возведенным в квадрат (для этого вам нужно создать инпут, в который пользователь будет вводить число).
 
  let btn4 = document.querySelector('.btn4');
+
    btn4.addEventListener('click', function () {
       let b = document.querySelector('.input-4').value;
         alert(b * b);
    });
+
+ btn4.onclick = () => {
+  
+  let b = document.querySelector('.input-4').value;
+   alert(b * b);
+  
+ };
+
+
 //////////// FIFTH TASK   Вам необходимо создать два инпута с заданными значениями и кнопку, при нажатии на которую будет осуществляться обмен содержимым между двумя инпутами (значение первого инпута должно записаться во второй, а значение второго — в первый).
 let btn5 = document.querySelector('.btn5');
   let a51 = document.querySelector('.input-51');
-  let attrub51 = a51.getAttribute('value');
+  let attrub51 = a51.getAttribute('value');     // ЗДЕСЬ ПОХОЖЕ НА КОСТЫЛИ
   let a52 = document.querySelector('.input-52');
   let attrub52 = a52.getAttribute('value');
 
@@ -47,9 +57,15 @@ let btn5 = document.querySelector('.btn5');
 ////////SIXTH TASK  Напишите код, который будет при нажатии на кнопку менять текст в ней.\
  let btn6 = document.querySelector('.btn6');
    
+
   btn6.addEventListener( 'click', function () {
       btn6.innerHTML = 'DID you catch it , we"ve changed words';
   });
+  btn6.onclick = () => {
+   btn6.innerHTML = 'DID you catch it , we"ve changed words';
+  
+  };
+
 
 /////////////////////SEVENTH TASK Напишите код, который будет при нажатии на кнопку менять цвет текста в инпуте (изначально в инпуте уже должно быть задан текст).
 let btn7 = document.querySelector('.btn7');
