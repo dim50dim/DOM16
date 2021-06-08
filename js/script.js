@@ -1,4 +1,7 @@
- 
+   'use strict';
+
+
+
 //////////FIRST TASK  . Напишите код, который будет выводить alert с надписью Привет! при нажатии на кнопку.
  let btn1 = document.querySelector('.btn1');
   btn1.onclick = () => {
@@ -31,7 +34,7 @@
  let btn4 = document.querySelector('.btn4');
 
    btn4.addEventListener('click', function () {
-      let b = document.querySelector('.input-4').value;
+      let b = +document.querySelector('.input-4').value;
         alert(b * b);
    });
 
