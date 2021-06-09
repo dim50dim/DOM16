@@ -8,3 +8,27 @@ body{
 .third {
      margin-top: 50px;
 }
+.hide {
+     display: none;
+}
+.btn8 {
+     position: absolute;
+     left :50px;
+     bottom: 20px;
+     width: 100px;
+     height: 100px;
+     background-color: rgb(241, 56, 56);
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+     
+}
+.call {
+     position: absolute;
+     left: 75px;
+     bottom: 50px;
+     z-index: 1;
+     color: white;
+}

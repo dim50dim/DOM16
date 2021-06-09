@@ -78,3 +78,11 @@ let btn7 = document.querySelector('.btn7');
    btn7.onclick = () => {
        b2.style.color = 'red';
    };
+
+   ///////////////////////  LAST TASK 
+   let btn8 = document.querySelector('.btn8');
+     let div = document.querySelector('.main');
+
+     btn8.addEventListener('click', function(){
+            div.classList.toggle('hide');
+     });
