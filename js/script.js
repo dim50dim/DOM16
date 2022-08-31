@@ -14,8 +14,7 @@
       
            
       btn2.onclick = function () {
-         a2.setAttribute('value','however , we have done it');
-          console.log(a2);
+           document.querySelector('body').classList.toggle('bg-orangered');
       };
 
        
